@@ -1,0 +1,182 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.top {
+    background-color: #E4F9F5;
+    position: relative;
+    height: 806px;
+    padding: 100px;
+}
+
+.cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.nameCareer {
+    width: auto;
+    height: 200px;
+}
+
+h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 5.625em;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Roboto Flex', sans-serif;
+    color: #66BFBF;
+    font-size: 2.5rem;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.mountain {
+    text-align: center;
+    margin: 286px auto 0 auto;
+}
+
+/* Middle div */
+
+.middle {
+    margin: 100px auto 100px auto;
+}
+
+.hello {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.hellop {
+    margin: auto;
+    width: 20%;
+}
+
+hr {
+    margin: 100px auto 100px auto;
+    width: 5%;
+    border: dotted #66BFBF 6px;
+    border-bottom: 0;
+}
+
+.dev {
+    width: 30.5%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.content {
+    float: left;
+    width: 25%;
+    margin-right: 20px;
+}
+
+h3 {
+    font-family: 'Roboto Flex', sans-serif;
+    color: #66BFBF;
+}
+
+.chilli {
+    float: right;
+    width: 25%;
+    margin-left: 20px;
+}
+
+.hotWings {
+    margin: 50px auto 50px auto;
+    width: 24%;
+}
+
+button {
+    --enhanced-glow-color: rgb(102, 191, 191);
+    --btn-color: rgb(102, 191, 191);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    margin: auto auto 100px auto;
+   }
+   
+   button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   button:hover {
+    color: #66BFBF;
+    background-color: #FFFFFF;
+}
+
+.bottom {
+    background-color: #66BFBF;
+    padding: 50px 50px;
+}
+
+a {
+    font-family: 'Roboto Flex', sans-serif;
+    color: #11999E;
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto 20px;
+}
+
+.copyRight {
+    font-family: 'Roboto Flex', sans-serif;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 10px;
+    padding: 25px 0px 0px 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #11999E;
+    height: 50px;
+}
+
+li {
+    display: inline;
+}
+
+li a{
+    color: #FFFFFF;
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+li a:hover {
+    color: #66BFBF;
+}
