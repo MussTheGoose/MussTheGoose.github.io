@@ -1,0 +1,89 @@
+<!--Error Page Not Found-->
+<!--Show in Dark Mode for those using Dark Mode-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Not Found</title>
+        <link rel="icon" href="parts/images/404.ico">
+        
+        <!--CSS here since it's not worth having in style sheet-->
+        <style>
+            body {
+                margin: 0;
+            }
+            h1.top{
+                    margin: 0;
+                    padding: 0;
+                    font-size: 6rem;
+                    display: flex;
+                    justify-content: center;  
+            }
+            h1.notfound {
+                margin: 0;
+                display: flex;
+                justify-content: center;
+            }
+            h3 {
+                margin: 0;
+                display: flex;
+                justify-content: center;
+            }
+            code {
+                margin: 0;
+                display: flex;
+                justify-content: center;
+            }
+            img {
+                margin: 0;
+            }
+            .honk {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            button {
+                --btn-color: rgb(0, 0, 0);
+                color: white;
+                font-size: 3rem;
+                font-weight: bold;
+                background-color: var(--btn-color);
+                border-radius: 1rem;
+                position: relative;
+                transition: all 0.3s;
+                padding: 0.5rem 1rem;
+                display: block;
+                margin: 34px auto;
+                cursor: pointer; 
+            }
+            button:hover {
+                color: black;
+                background-color: white;
+            }
+            a {
+                text-decoration: none;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <!--Top 404 Page Not Found-->
+        <div>
+            <h1 class="top">404</h1>
+            <h1 class="notfound">Page Not Found</h1>
+            <h3>The URL address is incorrect</h3><code>mussthegoose.github.io/???</code>
+        </div>
+
+        <!--HomePage Button-->
+        <a href="index.html">
+            <button>Return To Home Page</button>
+        </a>
+
+        <!--Goose Honk Image-->
+        <img class="honk" src="parts/images/honk.png" alt="Goose Honk">
+
+    </body>
+</html>
