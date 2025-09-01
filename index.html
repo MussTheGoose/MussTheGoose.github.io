@@ -1,8 +1,9 @@
 <!--Coding Languages HTML,CSS,JavaScript-->
-<!--Purpose to build a Online Portfolio-->
+<!--Purpose to build a Online Portfolio/Cool things-->
+<!--Dark Mode Setting-->
 <!--Notify Visitor, with pop up upon entering website. "You may experience bugs if your using dark mode extensions or blocking ads/popups." -->
 <!--Link github repositry of website SC-->
-<!-- link accounts Roblox, Discord, Gmail-->
+<!-- link accounts Roblox, Discord, Gmail on nav bar on homepage beside "MussTheGoose" with clickable logos -->
 <!--Visitor send suggestions-->
 <!--Play HangMan-->
 <!--Add Cookie Clicker Finisher Download Windows & ChromeOS-->
@@ -14,7 +15,7 @@
 
     <head>
         <title>MussTheGoose</title>
-        <link rel="icon" href="parts/icon.ico">
+        <link rel="icon" href="parts/images/icon.ico">
         <link rel="stylesheet" href="style.css">
 
     </head>
@@ -22,6 +23,7 @@
     <body>
         <div class="navbar">
 
+            <!--Burger Menu-->
             <div class="menu-icon" id="menuIcon">
                 <span></span>
                 <span></span>
@@ -31,16 +33,36 @@
             <div class="page-title">
                 <h2>MussTheGoose</h2>
             </div>
+            
+            <!--Gmail Button-->
+            <a class ="gmail-link" href="https://mail.google.com/mail/?view=cm&to=mussthegoose@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img class="gmail-logo" src="parts/images/gmailLogo.png" alt="Send Me a Email" title="MussTheGoose@gmail.com">
+            </a>
 
+            <!--Discord Button-->
+            <a class="discord-link" href="https://discord.gg/ryvnJ4zsbE" target="_blank" rel="noopener noreferrer">
+                <img class="discord-logo" src="parts/images/discordLogo.png" alt="Discord Server" title="techyfixes">
+            </a>
+
+            <!--Roblox Button-->
+            <a class="roblox-link" href="https://www.roblox.com/users/97448834/profile" target="_blank" rel="noopener noreferrer">
+                <img class="roblox-logo" src="parts/images/robloxLogo.png" alt="Roblox Account" title="Mussawir">
+            </a>
+
+            <!--SC button-->
             <a class="sc-link" href="https://github.com/MussTheGoose/MussTheGoose.github.io" target="_blank" rel="noopener noreferrer">
-                <img class="sc-icon" src="parts/sourceCodeIcon.png" alt="Source Code Icon" title="Source Code of Website Entirely - Github Repository">
+                <img class="sc-icon" src="parts/images/sourceCodeImg.png" alt="Source Code Icon" title="Source Code of Website Entirely - Github Repository">
             </a>
         </div>
+        
+        <!--Horizontal Navbar Line-->
+        <hr class="navbar">
 
+        <!--Drop Down Menu-->
         <div class="dropdown-menu" id="dropdownMenu">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">Fun Projects</a>
-            <a href="#">About Me</a>
+            <a href="parts/pages/about-me/about-me.html">About Me</a>
         </div>
 
         <script src="script.js"></script>
