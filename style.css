@@ -8,6 +8,16 @@ body {
     padding: 0;
 }
 
+/* Navbar*/
+hr.navbar {
+    margin: 0;
+    height: 4px;
+    width: 100%;
+    background: black;
+}
+
+/* Navbar Home Page*/
+
 .navbar {
     display: flex;
     align-items: center;
@@ -24,8 +34,8 @@ body {
 
 .menu-icon {
     width: 35px;
-    cursor: pointer;
     margin: 20px;
+    cursor: pointer;
 }
 
 .menu-icon:hover span {
@@ -78,11 +88,71 @@ body {
     height: 35px;
     width: 35px;
     object-fit: contain;
-    cursor: pointer;
     transition: 0.2s;
 }
 
 .sc-icon:hover {
     filter: invert(0.8) opacity(0.6);
     transition: filter 0.2s;
+}
+
+.gmail-link {
+    margin-left: 10px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.gmail-logo {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+    transition: 0.2s;
+}
+
+.gmail-logo:hover {
+    filter: brightness(0.8);
+    transition: filter 0.2s;
+}
+
+.discord-link {
+    margin-left: 10px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.discord-logo {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+    transition: 0.2s;
+}
+
+.discord-logo:hover {
+    filter: brightness(0.8);
+    transition: filter(0.2s);
+}
+
+.roblox-link {
+    margin-left: 10px;
+    margin-right:0px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.roblox-logo {
+    height: 35px;
+    width: 35px;
+    border-radius: 5px; /*Added rounded borders to image*/
+    object-fit: contain;
+    transition: 0.2s;
+}
+
+.roblox-logo:hover {
+    filter: brightness(0.8);
+    transition: filter(0.2s);
 }
