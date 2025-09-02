@@ -1,18 +1,54 @@
-html {
+html, body {
+    height: 100;
     margin: 0;
     padding: 0;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: white;
+    background-color: grey;
+    padding: 0.5rem;
     margin: 0;
-    padding: 0;
+}
+
+/* About Me */
+.center-text {
+    text-align: center;
+}
+
+#discord-profile {
+    border-radius: 3rem;
+    margin: 0;
+}
+
+#roblox-avatar {
+    transform: scale(1.2);
+    margin: 0;
+}
+
+#mc-skin {
+    transform: scale(0.38);
+    margin: 0;
+}
+
+.pfp-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -16rem auto -16rem auto;
 }
 
 /* Navbar*/
-hr.navbar {
+hr.bar {
     margin: 0;
     height: 4px;
-    width: 100%;
     background: black;
 }
 
@@ -26,10 +62,12 @@ hr.navbar {
     margin-left: 10px;
 }
 
-.site-title {
-    margin: 0;
-    font-size: 2em;
-    font-family: inherit;
+.page-title {
+    text-decoration: none;
+}
+
+a.page-title:visited {
+    color:black;
 }
 
 .menu-icon {
