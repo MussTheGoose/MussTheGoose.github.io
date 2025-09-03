@@ -9,6 +9,91 @@ body {
     flex-direction: column;
 }
 
+/* Prompt/Pop-up/Alert */
+
+#customAlert {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    width: 40rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+/* SETTINGS PAGE */
+
+/*Ping Checker*/
+
+.ping-checker {
+    text-align: right;
+}
+
+.ping-container {
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+    margin: 1rem;
+    gap: 0.8rem;
+    padding: 1.3rem 0.7rem 1.3rem 1.3rem;
+    border-radius: 2rem;
+    color: white;
+    background: #1a1a1a;
+    font-family: Arial, sans-serif;
+}
+
+.signal-bars {
+    display: flex;
+    align-items: flex-end;
+}
+
+.bar {
+    width: 0.5rem;
+    background: #333;
+    margin: 0 0.05rem;
+    border-radius: 0.1rem;
+    transition: background-color 0.3s;
+}
+
+.bar:nth-child(1) { height: 0.5rem; }
+.bar:nth-child(2) { height: 0.8rem; }
+.bar:nth-child(3) { height: 1.1rem; }
+.bar:nth-child(4) { height: 1.4rem; }
+
+.bar.active {
+    background: #00ff00;
+}
+
+.bar.medium {
+    background: #ffaa00;
+}
+
+.bar.slow {
+    background: #ff4444;
+}
+
+.ping-text {
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.ping-status {
+    font-size: 0.7rem;
+    opacity: 0.8;
+}
+
 /* Footer */
 .footer {
     text-align: center;
@@ -45,8 +130,8 @@ body {
     margin-left: 12rem;
 }
 
-/* Navbar*/
-hr.bar {
+/* Navbar's bar*/
+hr.navbar-bar {
     margin: 0;
     height: 4px;
     background: black;
