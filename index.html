@@ -1,25 +1,23 @@
-<!--Coding Languages HTML,CSS,JavaScript-->
-<!--Purpose to build a Online Portfolio/Cool things-->
-<!--Dark Mode Setting-->
-<!--Notify Visitor, with pop up upon entering website. "You may experience bugs if your using dark mode extensions or blocking ads/popups." -->
-<!--Link github repositry of website SC-->
-<!-- link accounts Roblox, Discord, Gmail on nav bar on homepage beside "MussTheGoose" with clickable logos -->
-<!--Visitor send suggestions-->
-<!--Play HangMan-->
-<!--Add Cookie Clicker Finisher Download Windows & ChromeOS-->
-<!--Report bugs/feedback/comments/support (Create reviews for the site)-->
-<!--In Projects put Discord Server cause it was a project building it-->
-<!--Make a URL shortner (What other useful things can I make for people giving them an another reason besides visiting my site for fun)-->
-
 <!DOCTYPE html>
 
 <html lang="en">
 
     <head>
         <title>tinyfy.io/fun</title>
-        <link rel="icon" href="parts/images/icon.ico">
-        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="../parts/images/icon.ico">
+        <link rel="stylesheet" href="../style.css">
 
+        <!--CSS Local Code-->
+        <style>
+            ol {
+                display: flex;
+                justify-content: center;
+                margin: 0;
+            }
+            li {
+                margin: 0;
+            }
+        </style>
     </head>
 
     <body>
@@ -32,36 +30,9 @@
                 <span></span>
             </div>
 
-            <div>
-                <a href="about-me.html" style=" text-decoration: none; color: black;">
-                <h2>MussTheGoose</h2>
-                </a>
+            <div class="page-title">
+                <h2>Fun Projects</h2>
             </div>
-            
-            <!--Gmail Button-->
-            <a class ="gmail-link" href="https://mail.google.com/mail/?view=cm&to=mussthegoose@gmail.com" target="_blank" rel="noopener noreferrer">
-                <img class="gmail-logo" src="parts/images/gmailLogo.png" alt="Send Me a Email" title="MussTheGoose@gmail.com">
-            </a>
-
-            <!--Github Button-->
-            <a class="github-link" href="https://github.com/MussTheGoose" target="_blank" rel="noopener noreferrer">
-                <img class="github-logo" src="parts/images/githubLogo.png" alt="Git Hub Profile" title="MussTheGoose">
-            </a>
-
-            <!--Discord Button-->
-            <a class="discord-link" href="https://discord.gg/ryvnJ4zsbE" target="_blank" rel="noopener noreferrer">
-                <img class="discord-logo" src="parts/images/discordLogo.png" alt="Discord Server" title="techyfixes">
-            </a>
-
-            <!--Roblox Button-->
-            <a class="roblox-link" href="https://www.roblox.com/users/97448834/profile" target="_blank" rel="noopener noreferrer">
-                <img class="roblox-logo" src="parts/images/robloxLogo.png" alt="Roblox Account" title="Mussawir">
-            </a>
-
-            <!--SC button-->
-            <a class="sc-link" href="https://github.com/MussTheGoose/mussawir.netlify.app" target="_blank" rel="noopener noreferrer">
-                <img class="sc-icon" src="parts/images/sourceCodeImg.png" alt="Source Code Icon" title="Source Code of Website Entirely - Github Repository">
-            </a>
         </div>
         
         <!--Horizontal Navbar Line-->
@@ -69,26 +40,32 @@
 
         <!--Drop Down Menu-->
         <div class="dropdown-menu" id="dropdownMenu">
-            <a href="https://mussawir.netlify.app">Home</a>
-            <a href="fun-projects">Fun Projects</a>
-            <a href="about-me">About Me</a>
+            <a href="..">Home</a>
+            <a href="https://mussawir.netlify.app/fun-projects">Fun Projects</a>
+            <a href="../about-me">About Me</a>
             <a href="#">Settings</a>
         </div>
-        
-        <!--Content of page (Below NavBar but Above Footer)-->
-        <div class="content-home">
-            <h1 style="text-align: center;">Hello Visitor!</h1>
+
+        <div class="content-projects">
+
+            <p style="text-align: center; font-style: italic;">Tip! Use [CTRL + F] to find what your looking for</p>
+            
+            <!--List of Projects-->
+            <ol>
+                <li><a href="#">Fun</a></li>
+            </ol>
+
         </div>
 
         <!--Footer-->
-        <div class="footer" style="margin-top: 32rem;">
+        <div class="footer" style="margin: 32.7rem 0 0 0">
 
-            <p>Website Updated: Sep 2, 2025</p>
+            <p>This Page Updated: Sep 2, 2025</p>
             <p>© 2025 MussTheGoose @ mussawir.netlify.app</p>
 
         </div>
 
-        <script src="script.js"></script>
+        <script src="../script.js"></script>
     </body>
 
 </html>
