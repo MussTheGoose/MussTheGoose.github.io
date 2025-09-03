@@ -62,14 +62,6 @@ hr.bar {
     margin-left: 10px;
 }
 
-.page-title {
-    text-decoration: none;
-}
-
-a.page-title:visited {
-    color:black;
-}
-
 .menu-icon {
     width: 35px;
     margin: 20px;
@@ -118,15 +110,12 @@ a.page-title:visited {
     margin-left: auto; /*Pushes img to far right*/
     margin-right: 30px;
     display: flex;
-    align-items: center;
-    text-decoration: none;
 }
 
 .sc-icon {
     height: 35px;
     width: 35px;
     object-fit: contain;
-    transition: 0.2s;
 }
 
 .sc-icon:hover {
@@ -136,17 +125,13 @@ a.page-title:visited {
 
 .gmail-link {
     margin-left: 10px;
-    margin-right: 0px;
     display: flex;
-    align-items: center;
-    text-decoration: none;
 }
 
 .gmail-logo {
     height: 35px;
     width: 35px;
     object-fit: contain;
-    transition: 0.2s;
 }
 
 .gmail-logo:hover {
@@ -154,19 +139,32 @@ a.page-title:visited {
     transition: filter 0.2s;
 }
 
+.github-link {
+    margin-left: 10px;
+    display: flex;
+}
+
+.github-logo {
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    object-fit: contain;
+}
+
+.github-logo:hover {
+    filter: brightness(0.8);
+    transition: filter(0.2s);
+}
+
 .discord-link {
     margin-left: 10px;
-    margin-right: 0px;
     display: flex;
-    align-items: center;
-    text-decoration: none;
 }
 
 .discord-logo {
     height: 35px;
     width: 35px;
     object-fit: contain;
-    transition: 0.2s;
 }
 
 .discord-logo:hover {
@@ -176,10 +174,7 @@ a.page-title:visited {
 
 .roblox-link {
     margin-left: 10px;
-    margin-right:0px;
     display: flex;
-    align-items: center;
-    text-decoration: none;
 }
 
 .roblox-logo {
@@ -187,7 +182,6 @@ a.page-title:visited {
     width: 35px;
     border-radius: 5px; /*Added rounded borders to image*/
     object-fit: contain;
-    transition: 0.2s;
 }
 
 .roblox-logo:hover {
