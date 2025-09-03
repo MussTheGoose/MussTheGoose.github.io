@@ -23,26 +23,26 @@ body {
     text-align: center;
 }
 
-#discord-profile {
-    border-radius: 3rem;
-    margin: 0;
-}
-
-#roblox-avatar {
-    transform: scale(1.2);
-    margin: 0;
-}
-
-#mc-skin {
-    transform: scale(0.38);
-    margin: 0;
-}
-
 .pfp-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: -16rem auto -16rem auto;
+}
+
+.pfp-container img {
+    display:block;
+    height: auto;
+    margin: auto 5rem;
+    width: 12.2rem;
+}
+
+#discord-profile {
+    transform: scale(2.3);
+    border-radius: 1rem;
+}
+
+#mc-skin {
+    margin-left: 12rem;
 }
 
 /* Navbar*/
