@@ -43,9 +43,9 @@ async function checkPing() {
     const start = performance.now();
     try {
         // Add random param to prevent caching
-        await fetch(window.location.origin + '?t=' + Date.now(), {
+        await fetch('index.html', {
             cache: 'no-cache',
-            method: 'HEAD'
+            method: 'GET'
         });
         const ping = Math.round(performance.now() - start);
         return ping;
