@@ -1,4 +1,4 @@
-# tinyfy.io/fun
+# https://mussawir.netlify.app
 
 This is the entire source code/images etc... of a website which holds my portfolio and random projects.
 I hope this comes in useful for someone that wants to know how a certain thing was implemented on
