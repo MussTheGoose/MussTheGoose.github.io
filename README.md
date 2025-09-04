@@ -1,4 +1,4 @@
-# <a href="https://mussawir.netlify.app">mussawir.netlify.app</a>
+# <a href="https://mussawir.netlify.app" target="_blank" rel="noopener noreferrer">mussawir.netlify.app</a>
 
 This is the entire source code/images etc... of a website which holds my portfolio and random projects.
 I hope this comes in useful for someone that wants to know how a certain thing was implemented on
